@@ -1,6 +1,6 @@
-package org.example.sanpedro.data;
+package org.example.quizlabprogra4.data;
 
-import org.example.sanpedro.logic.Tanda;
+import org.example.quizlabprogra4.logic.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

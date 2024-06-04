@@ -1,6 +1,6 @@
-package org.example.sanpedro.data;
+package org.example.quizlabprogra4.data;
 
-import org.example.sanpedro.logic.Compra;
+import org.example.quizlabprogra4.logic.*;
 import org.springframework.stereotype.Component;
 import java.util.List;
 
