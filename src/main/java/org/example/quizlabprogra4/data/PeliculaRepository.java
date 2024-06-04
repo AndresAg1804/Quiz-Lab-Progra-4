@@ -1,6 +1,7 @@
-package org.example.sanpedro.data;
+package org.example.quizlabprogra4.data;
 
-import org.example.sanpedro.logic.Pelicula;
+
+import org.example.quizlabprogra4.logic.Pelicula;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalTime;
