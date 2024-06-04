@@ -19,5 +19,31 @@ public class Service {
     @Autowired
     private PeliculaRepository peliculaRepository;
 
+    public Pelicula findByIdPelicula(String id) throws Exception {
+        return peliculaRepository.findById(id);
+    }
 
+    public List<Pelicula> findAllPeliculas(){
+        return peliculaRepository.findAll();
+    }
+
+    public Compra findByIdCompra(String id) throws Exception {
+        return compraRepository.findById(id);
+    }
+
+    public List<Compra> findAllCompras(){
+        return compraRepository.findAll();
+    }
+
+    public Tanda findByIdTanda(String id) throws Exception {
+        return tandaRepository.findById(id);
+    }
+
+    public List<Tanda> findAllTandas(){
+        return tandaRepository.findAll();
+    }
+
+    public List<Tanda> findByFechaTanda(String fecha){
+        return tandaRepository.findByFecha(fecha);
+    }
 }
