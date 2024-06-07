@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/peliculas")
+@RequestMapping("/peliculas")
 public class Peliculas {
     @Autowired
     Service service;
